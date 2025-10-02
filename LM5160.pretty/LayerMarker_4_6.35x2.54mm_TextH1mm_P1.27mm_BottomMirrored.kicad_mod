@@ -1,0 +1,135 @@
+(footprint "LayerMarker_4_6.35x2.54mm_TextH1mm_P1.27mm_BottomMirrored"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Layer marker, 4 layers, simple ordinals, text size 1mm, pitch 1.27mm, margin 1.27mm")
+	(tags "layer order identification numbering")
+	(property "Reference" "REF**"
+		(at 0 1.27 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a7541b18-cb2b-45d5-b69e-caa6f7455ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LAYERS"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b301acc-c21b-4edd-b01b-b9e6981a525b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb1b12c8-0ce1-4a3e-8244-f197f03febc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fiducial Marker"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43761e6a-5b60-431a-abfa-2f482b83612f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text user "1"
+		(at 0 -1.27 0)
+		(layer "F.Cu")
+		(uuid "c077e5b7-d237-442f-ba8e-b6b416a68b9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 3.81 -1.27 0)
+		(layer "B.Cu")
+		(uuid "511b2da2-a15b-4779-a73e-d9c6e7683787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "2"
+		(at 1.27 -1.27 0)
+		(layer "In1.Cu")
+		(uuid "5c2420d8-6c44-4847-89a3-45455d8230c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 2.54 -1.27 0)
+		(layer "In2.Cu")
+		(uuid "9ba37210-451f-4685-b6d9-bc87cf9e1e1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(uuid "cfc90a5f-4916-4036-b0b2-5ffa6963fc25")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.27 -2.54) (xy 5.08 -2.54) (xy 5.08 0) (xy -1.27 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
