@@ -9494,16 +9494,16 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 63.5 228.6 0)
+		(at 50.8 228.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47eeab95-ad52-4782-937c-2552c94a5806")
 		(property "Reference" "SYM1"
-			(at 63.5 221.615 0)
+			(at 50.8 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9511,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 63.5 234.315 0)
+			(at 50.8 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9520,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
-			(at 63.5 228.6 0)
+			(at 50.8 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 228.6 0)
+			(at 50.8 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,16 +9538,7 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 63.5 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 63.5 228.6 0)
+			(at 50.8 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +10891,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 114.3 228.6 0)
+		(at 101.6 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10909,7 +10900,7 @@
 		(fields_autoplaced yes)
 		(uuid "75aee9c2-22c0-458f-b861-a0f1ca6019c6")
 		(property "Reference" "SYM3"
-			(at 116.84 227.3299 0)
+			(at 104.14 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10909,7 @@
 			)
 		)
 		(property "Value" "WEEE"
-			(at 116.84 229.8699 0)
+			(at 104.14 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10918,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:WEEE-Logo_4.2x6mm_SilkScreen"
-			(at 114.3 228.6 0)
+			(at 101.6 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,7 +10927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 228.6 0)
+			(at 101.6 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +10936,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 114.3 228.6 0)
+			(at 101.6 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,7 +13505,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 114.3 236.22 0)
+		(at 114.3 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13523,7 +13514,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5c3d4f9-20f2-4b53-8bb6-95872c53653f")
 		(property "Reference" "SYM4"
-			(at 116.84 234.9499 0)
+			(at 116.84 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13523,7 @@
 			)
 		)
 		(property "Value" "LAYERS"
-			(at 116.84 237.4899 0)
+			(at 116.84 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13532,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:LayerMarker_4_6.35x2.54mm_TextH1mm_P1.27mm_BottomMirrored"
-			(at 114.3 236.22 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +13541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 236.22 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13550,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 114.3 236.22 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,16 +14168,16 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Large")
-		(at 88.9 228.6 0)
+		(at 76.2 227.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d546a796-3121-4e68-9e10-3a4f92b05eb5")
 		(property "Reference" "SYM2"
-			(at 88.9 223.52 0)
+			(at 76.2 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +14185,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Large"
-			(at 88.9 234.95 0)
+			(at 76.2 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +14194,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 88.773 229.362 0)
+			(at 76.073 228.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14212,7 +14203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.773 229.362 0)
+			(at 76.073 228.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14221,16 +14212,7 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, large"
-			(at 88.9 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 88.9 228.6 0)
+			(at 76.2 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14822,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 114.3 243.84 0)
+		(at 127 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14849,7 +14831,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed7b3777-6a83-4b25-8261-0b3d1a565122")
 		(property "Reference" "SYM5"
-			(at 116.84 242.5699 0)
+			(at 129.54 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14858,7 +14840,7 @@
 			)
 		)
 		(property "Value" "KICAD"
-			(at 116.84 245.1099 0)
+			(at 129.54 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14867,7 +14849,7 @@
 			)
 		)
 		(property "Footprint" "KiCad-Logo2_5mm_SilkScreen"
-			(at 114.3 243.84 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14876,7 +14858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 243.84 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14885,7 +14867,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 114.3 243.84 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
